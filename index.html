@@ -22,9 +22,9 @@
 
 </head>
 
-<body>
+<body id="top">
 
-    <div class="preload" data-preaload>
+    <div class="preload" data-preload>
         <div class="circle"></div>
         <p class="text">Grilli</p>
     </div>
@@ -55,7 +55,7 @@
             <div class="separator"></div>
             <a href="mailto:contato@grilli.com" class="topbar-item link">
                 <div class="icon">
-                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
                 </div>
                 <span class="span">contato@grilli.com</span>
 
@@ -210,7 +210,7 @@
                         </a>
                     </li>
                 </ul>
-                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <button class="slider-btn -prev" aria-label="slide to previous" data-prev-btn>
                     <ion-icon name="chevron-back"></ion-icon>
                 </button>
                 <button class="slider-btn next" aria-label="slide to next" data-next-btn>
@@ -580,7 +580,7 @@
                 style="background-image: url('./assets/img/testimonial-bg.jpg');" aria-label="testimonials">
                 <div class="container">
                     <div class="quote">”</div>
-                    <p class="headline">
+                    <p class="headline test-text">
                         O Grilli é simplesmente maravilhoso! A comida é deliciosa e o atendimento impecável. Sempre saio
                         de lá satisfeito e com vontade de voltar
                     </p>
@@ -674,8 +674,7 @@
 
                             <p class="contact-label">Fazer reserva</p>
 
-                            <a  href="tel:113456-7890" 
-                                class="body-1 contact-number hover-underline">(11) 3456-7890</a>
+                            <a href="tel:113456-7890" class="body-1 contact-number hover-underline">(11) 3456-7890</a>
 
                             <div class="separator"></div>
 
@@ -689,7 +688,7 @@
 
                             <p class="body-4">
                                 Segunda a Sábado <br />
-                                11.00  - 14.30
+                                11.00 - 14.30
                             </p>
 
                             <p class="contact-label">Jantar</p>
@@ -704,118 +703,268 @@
             </section>
             <section class="section features text-center" aria-label="features">
                 <div class="container">
-                  <p class="section-subtitle label-2">O que Oferecemos</p>
-      
-                  <h2 class="headline-1 section-title">Nossos serviços</h2>
-      
-                  <ul class="grid-list">
-                    <li class="feature-item">
-                      <div class="feature-card">
-                        <div class="card-icon">
-                          <img
-                            src="./assets/img/features-icon-1.png"
-                            width="100"
-                            height="80"
-                            loading="lazy"
-                            alt="icon"
-                          />
-                        </div>
-      
-                        <h3 class="title-2 card-title">Ingredientes Selecionados</h3>
-      
-                        <p class="label-1 card-text">
-                          Lorem Ipsum is simply dummy printing and typesetting.
-                        </p>
-                      </div>
-                    </li>
-      
-                    <li class="feature-item">
-                      <div class="feature-card">
-                        <div class="card-icon">
-                          <img
-                            src="./assets/img/features-icon-2.png"
-                            width="100"
-                            height="80"
-                            loading="lazy"
-                            alt="icon"
-                          />
-                        </div>
-      
-                        <h3 class="title-2 card-title">Ambiente Aconchegante</h3>
-      
-                        <p class="label-1 card-text">
-                          Lorem Ipsum is simply dummy printing and typesetting.
-                        </p>
-                      </div>
-                    </li>
-      
-                    <li class="feature-item">
-                      <div class="feature-card">
-                        <div class="card-icon">
-                          <img
-                            src="./assets/img/features-icon-3.png"
-                            width="100"
-                            height="80"
-                            loading="lazy"
-                            alt="icon"
-                          />
-                        </div>
-      
-                        <h3 class="title-2 card-title">Chefs Renomandos</h3>
-      
-                        <p class="label-1 card-text">
-                          Lorem Ipsum is simply dummy printing and typesetting.
-                        </p>
-                      </div>
-                    </li>
-      
-                    <li class="feature-item">
-                      <div class="feature-card">
-                        <div class="card-icon">
-                          <img
-                            src="./assets/img/features-icon-4.png"
-                            width="100"
-                            height="80"
-                            loading="lazy"
-                            alt="icon"
-                          />
-                        </div>
-      
-                        <h3 class="title-2 card-title">Disponibildade para Eventos</h3>
-      
-                        <p class="label-1 card-text">
-                          Lorem Ipsum is simply dummy printing and typesetting.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-      
-                  <img
-                    src="./assets/img/shape-7.png"
-                    width="208"
-                    height="178"
-                    loading="lazy"
-                    alt="shape"
-                    class="shape shape-1"
-                  />
-      
-                  <img
-                    src="./assets/imgs/shape-8.png"
-                    width="120"
-                    height="115"
-                    loading="lazy"
-                    alt="shape"
-                    class="shape shape-2"
-                  />
+                    <p class="section-subtitle label-2">O que Oferecemos</p>
+
+                    <h2 class="headline-1 section-title">Nossos serviços</h2>
+
+                    <ul class="grid-list">
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <img src="./assets/img/features-icon-1.png" width="100" height="80" loading="lazy"
+                                        alt="icon" />
+                                </div>
+
+                                <h3 class="title-2 card-title">Ingredientes Selecionados</h3>
+
+                                <p class="label-1 card-text">
+                                    Lorem Ipsum is simply dummy printing and typesetting.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <img src="./assets/img/features-icon-2.png" width="100" height="80" loading="lazy"
+                                        alt="icon" />
+                                </div>
+
+                                <h3 class="title-2 card-title">Ambiente Aconchegante</h3>
+
+                                <p class="label-1 card-text">
+                                    Lorem Ipsum is simply dummy printing and typesetting.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <img src="./assets/img/features-icon-3.png" width="100" height="80" loading="lazy"
+                                        alt="icon" />
+                                </div>
+
+                                <h3 class="title-2 card-title">Chefs Renomandos</h3>
+
+                                <p class="label-1 card-text">
+                                    Lorem Ipsum is simply dummy printing and typesetting.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <img src="./assets/img/features-icon-4.png" width="100" height="80" loading="lazy"
+                                        alt="icon" />
+                                </div>
+
+                                <h3 class="title-2 card-title">Disponibildade para Eventos</h3>
+
+                                <p class="label-1 card-text">
+                                    Lorem Ipsum is simply dummy printing and typesetting.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <img src="./assets/img/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+                        class="shape shape-1" />
+
+                    <img src="./assets/imgs/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+                        class="shape shape-2" />
                 </div>
-              </section>
+            </section>
+            <section class="section event bg-black-10" aria-label="event">
+                <div class="container">
+                    <p class="section-subtitle label-2 text-center">Eventos</p>
+                    <h2 class="section-title headline-1 text-center">Próximos Eventos</h2>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450">
+                                    <img src="./assets/img/event-1.jpg" width="350" height="450" loading="lazy"
+                                        alt="Flavour so good you’ll try to eat with your eyes." class="img-cover" />
+
+                                    <time class="publish-date label-2" datetime="15/10/2024">15/10/2024</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">
+                                        Café Colonial
+                                    </p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Evento para todas idades
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450">
+                                    <img src="./assets/img/event-2.jpg" width="350" height="450" loading="lazy"
+                                        alt="Healthy Food" class="img-cover" />
+
+                                    <time class="publish-date label-2" datetime="08/11/2024">08/11/2024</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">
+                                        Festival de panquecas
+                                    </p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Evento para todas as idades
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450">
+                                    <img src="./assets/img/event-3.jpg" width="350" height="450" loading="lazy"
+                                        alt="Healthy Food" class="img-cover" />
+
+                                    <time class="publish-date label-2" datetime="03/12/2024">03/12/2024</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Festival de receitas</p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Evento para todas idades
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </article>
     </main>
 
+    <footer class="footer section has-bg-image text-center"
+        style="background-image: url('./assets/img/footer-bg.jpg');">
+        <div class="container">
+            <div class="footer-top grid-list">
+                <div class="footer-brand has-before has-after">
+                    <a href="#" class="logo">
+                        <img src="./assets/img/logo.svg" width="160" height="50" loading="lazy" alt="grilli home" />
+                    </a>
+                    <address class="body-4">
+                        Rua das Flores, 123, Bairro Central,Cidade Nova, Estado Novo
+                    </address>
+                    <a href="mailto:contato@grilli.com" class="body-4 contact-link">
+                        contato@grilli.com
+                    </a>
+                    <a href="tel:113456-7890" class="body-4 contact-link">
+                        (11) 3456-7890
+                    </a>
+                    <p class="body-4">
+                        Rua das Flores, 123, Bairro Central,Cidade Nova, Estado Novo
+                    </p>
+                    <p class="title-1">Segunda a Sábado: 08:00 - 22:00</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <p class="title-1">Fique por dentro das novidades</p>
+                  
+                    <p class="label-1">
+                        Inscreve e ganhe <span class="span">25% </span> de desconto
+                    </p>
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="email" name="email_address" placeholder="E-mail" autocomplete="off"
+                                class="input-field" />
+                        </div>
+                        <button type="submit" class="btn btn-secondary">
+                            <span class="text text-1">Inscrever</span>
+
+                            <span class="text text-2" aria-hidden="true">Inscrever</span>
+
+                        </button>
+                    </form>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Nossos Chefs</a>
+                    </li>
+                     <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Contato</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                      <a href="#" class="label-2 footer-link hover-underline"
+                        >Facebook</a
+                      >
+                    </li>
+        
+                    <li>
+                      <a href="#" class="label-2 footer-link hover-underline"
+                        >Instagram</a
+                      >
+                    </li>
+        
+                    <li>
+                      <a href="#" class="label-2 footer-link hover-underline"
+                        >Twitter</a
+                      >
+                    </li>
+        
+                    <li>
+                      <a href="#" class="label-2 footer-link hover-underline"
+                        >YouTube</a
+                      >
+                    </li>
+        
+                    <li>
+                      <a href="#" class="label-2 footer-link hover-underline"
+                        >Como Chegar</a
+                      >
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                    <p class="copyright">
+                        &copy; 2024 Grilli | Todos os direitos reservados | Criado por <a href="https://www.github.com/diegovilhalva" target="_blank" class="link">
+                            Diego Vilhalva
+                        </a>
+                    </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-top-btn" aria-label="back to top " data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
 
     <script src="./assets/js/script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/i   onicons/ionicons.js"></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 
 </html>
